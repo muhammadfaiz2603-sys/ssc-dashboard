@@ -14,8 +14,8 @@ st.set_page_config(page_title="SSC 2026 Dashboard", layout="wide")
 data_regional = {
     'Region': ['Central', 'Northern', 'Southern', 'East Coast', 'Sabah', 'Sarawak'],
     'Pass': [73, 48, 49, 55, 42, 36],
-    'Fail': [25, 16, 13, 12, 8, 14],
-    'Total Headcount': [98, 64, 62, 67, 50, 50]
+    'Fail': [25, 16, 13, 12, 55, 14],
+    'Total Headcount': [98, 64, 62, 67, 97, 50]
 }
 df_regional = pd.DataFrame(data_regional)
 
